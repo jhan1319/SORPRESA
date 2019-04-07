@@ -5,6 +5,9 @@
 #define MateriasPeriodos 2
 #define CANTIDADCARRERAS 2
 
+// 20/80
+// Faltaron muchos acápites
+
 struct estudiantes
 {
    int matricula;
@@ -48,7 +51,7 @@ int b;
 
 int main()
 {
-   printf("BIENVENIDO! SELECCIONE UNA DE LAS OPCIONES DEL MENU:\n1.Inscribir estudiantes\n2. Agregar Carreras\n3. Agregar Materias\n4. Publicar calificaciones num�ricas a un estudiante en una materia\n5. Borrar una calificaci�n\n6. Calcular el �ndice acumulado de un estudiante\n7. Calcular la calificaci�n promedio en una materia\n8. Calcular la calificaci�n promedio de los estudiantes de una carrera\n9. La cantidad de horas pr�cticas por carrera\n10. SALIR.\n");
+   printf("BIENVENIDO! SELECCIONE UNA DE LAS OPCIONES DEL MENU:\n1.Inscribir estudiantes\n2. Agregar Carreras\n3. Agregar Materias\n4. Publicar calificaciones numéricas a un estudiante en una materia\n5. Borrar una calificación\n6. Calcular el índice acumulado de un estudiante\n7. Calcular la calificación promedio en una materia\n8. Calcular la calificación promedio de los estudiantes de una carrera\n9. La cantidad de horas prácticas por carrera\n10. SALIR.\n");
    scanf("%d", &b);
    menu(b);
 
