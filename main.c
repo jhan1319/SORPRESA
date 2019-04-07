@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+//16/20
 int main()
 {
     printf("INGRESE UNA PASSWORD:\n");
@@ -32,16 +32,17 @@ int main()
       j++ ;
     }
     texto2[j] = '\0';
-
+    
+    
     if(texto == texto2)
     {
       printf("PASSWORD GUARDADA");
     }
-    if(c != d)
+    if(c != d) // esto compara 2 characters; tenías que comparar 2 strings pudiste usar strcmp(texto,texto2) -2
     {
       printf("ERROR AL GUARDAR LA PASSWORD");
     }
-
+    // tenías que volver a pedirles que reingresen el password si ambos no coinciden -2
     printf("REVISAR SUS ERRORES E INTENTAR DE NUEVO:\nPassword #1:%s\nPassword #2:%s", texto, texto2);
 
 
